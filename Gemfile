@@ -1,8 +1,8 @@
 # A sample Gemfile
 if ENV['USE_OFFICIAL_GEM_SOURCE']
-	  source 'https://rubygems.org'
+	source 'https://rubygems.org'
 else
-	  source 'https://ruby.taobao.org'
+	source 'https://ruby.taobao.org'
 end
 
 gem 'gem-browse'
