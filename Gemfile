@@ -32,6 +32,13 @@ gem 'browser'
 gem 'pundit'
 gem 'brakeman'
 gem 'awesome_nested_set'
+gem 'mongoid'
+gem 'whenever'
+gem 'redis-activesupport'
+gem 'rack'
+gem 'warden'
+gem 'rspec'
+gem 'kaminari'
 
 group :development do
 	gem "better_errors"
