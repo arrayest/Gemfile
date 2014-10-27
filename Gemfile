@@ -41,6 +41,13 @@ gem 'transmuter'
 gem 'factory_girl'
 gem 'factory_girl_rails'
 gem 'bindata'
+gem 'mongoid'
+gem 'whenever'
+gem 'redis-activesupport'
+gem 'rack'
+gem 'warden'
+gem 'rspec'
+gem 'kaminari'
 
 group :development do
 	gem "better_errors"
