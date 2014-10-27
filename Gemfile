@@ -6,7 +6,9 @@ else
 end
 
 gem 'gem-browse'
-gem "rails"
+gem 'rails'
+gem 'rails-i18n'
+gem 'camping'
 gem 'thin'
 gem 'mysql2'
 gem 'mechanize'
@@ -32,6 +34,13 @@ gem 'browser'
 gem 'pundit'
 gem 'brakeman'
 gem 'awesome_nested_set'
+gem 'parallel'
+gem 'savon'
+gem 'auto-correct'
+gem 'transmuter'
+gem 'factory_girl'
+gem 'factory_girl_rails'
+gem 'bindata'
 
 group :development do
 	gem "better_errors"
