@@ -1,5 +1,5 @@
 # A sample Gemfile
-if ENV['USE_OFFICIAL_GEM_SOURCE']
+if ENV['RUBYGEMS']
 	source 'https://rubygems.org'
 else
 	source 'https://ruby.taobao.org'
@@ -13,7 +13,6 @@ gem 'thin'
 gem 'mysql2'
 gem 'mechanize'
 gem 'sidekiq'
-gem 'awesome_print'
 gem 'devise'
 gem 'thor'
 gem 'carrierwave'
@@ -28,6 +27,7 @@ gem 'gon'
 gem 'unicorn'
 gem 'irbtools'
 gem 'irbtools-more'
+gem 'awesome_print'
 gem 'hooks'
 gem 'reek'
 gem 'browser'
@@ -48,6 +48,7 @@ gem 'rack'
 gem 'warden'
 gem 'rspec'
 gem 'kaminari'
+gem 'nlpir'
 
 group :development do
 	gem "better_errors"
